@@ -10,7 +10,9 @@ sh scripts/create-maven-uqickstart-ap.sh
 ```
 
 ## add dependencies for http client, compile and assembly
- - dependency:okhttp 
+ - dependency:okhttp
+ - dependency:jackson-databind
+ - dependency:log4j
  - plugin:maven-compiler-plugin
  - plugin:maven-assembly-plugin
 
